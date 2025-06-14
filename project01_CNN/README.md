@@ -32,13 +32,18 @@ We load a pretrained model (e.g., ResNet or VGG) trained on ImageNet, and adapt 
 - Training on GPU (recommended in Google Colab)
 
 ---
+## 📁 Data
+
+The MNIST dataset is automatically downloaded and stored in the `data/` directory when using `torchvision.datasets.MNIST`.  
+No manual download is required.
+
+---
 
 ## 📂 Files
 
 - `NN_cls.ipynb` – Practice 1: basic neural network
 - `CNN_cls.ipynb` – Practice 2: CNN with transfer learning
 - `README.md` – this file
-- `data` – MNIST data
 
 ---
 
